@@ -48,7 +48,7 @@ export default function Register() {
     try {
       // 1. Register the user
       await registerUser({
-        fullName: formData.fullName.trim(),
+        name: formData.fullName.trim(),
         email: formData.email.trim(),
         phone: formData.phone.trim(),
         password: formData.password,
